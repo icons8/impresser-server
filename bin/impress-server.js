@@ -10,7 +10,7 @@ var
     .usage('Usage: $0 [config.json[, ...config.json]] [impress options]')
     .help('h')
     .alias('h', 'help')
-    .epilog('impress (https://github.com/icons8/impress)')
+    .epilog('impress-server (https://github.com/icons8/impress-server)')
     .argv,
 
   options;
