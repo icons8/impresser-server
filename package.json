@@ -1,25 +1,26 @@
 {
-  "name": "impress-server",
+  "name": "impresser-server",
   "version": "0.1.0",
-  "description": "Impress server",
+  "description": "Impresser server",
   "repository": {
-    "url": "https://github.com/icons8/impress-server"
+    "url": "https://github.com/icons8/impresser-server"
   },
   "license": "MIT",
   "tags": [
     "prerender",
-    "impress"
+    "impress",
+    "impresser"
   ],
   "bin": {
-    "impress-server": "./bin/impress-server.js"
+    "impresser-server": "./bin/impresser-server.js"
   },
   "dependencies": {
     "yargs": "^3.6.0",
-    "impress": "icons8/impress",
-    "impress-blocked-resources": "icons8/impress-blocked-resources",
-    "impress-html-angular-minify": "icons8/impress-html-angular-minify",
-    "impress-html-minify": "icons8/impress-html-minify",
-    "impress-blocked-resources": "icons8/impress-blocked-resources",
-    "impress-mysql-storage": "icons8/impress-mysql-storage"
+    "impresser": "^0.3.2",
+    "impresser-blocked-resources": "^0.1.2",
+    "impresser-html-angular-minifier": "^0.1.2",
+    "impresser-html-minifier": "^0.1.2",
+    "impresser-blocked-resources": "^0.1.2",
+    "impresser-mysql-storage": "^0.1.2"
   }
 }

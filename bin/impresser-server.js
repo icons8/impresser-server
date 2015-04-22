@@ -7,10 +7,10 @@ var
   Application = require('../lib/Application'),
 
   argv = yargs
-    .usage('Usage: $0 [config.json[, ...config.json]] [impress options]')
+    .usage('Usage: $0 [config.json[, ...config.json]] [impresser options]')
     .help('h')
     .alias('h', 'help')
-    .epilog('impress-server (https://github.com/icons8/impress-server)')
+    .epilog('impresser-server (https://github.com/icons8/impresser-server)')
     .argv,
 
   options;
