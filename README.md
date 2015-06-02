@@ -5,4 +5,4 @@
     npm install -g impresser-server
     impresser-server -h
     
-Enjoy.
+Enjoy!
